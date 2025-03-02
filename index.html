@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripPlanner - Rencanakan Perjalananmu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>TripPlanner</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Destinasi</a></li>
+                <li><a href="#">Planning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Jelajahi Dunia dengan Mudah</h2>
+        <p>Temukan tempat wisata, penginapan, dan kuliner terbaik di satu tempat.</p>
+        <a href="#" class="btn">Mulai Sekarang</a>
+    </section>
+
+    <!-- Destinasi Populer -->
+    <section class="destinations">
+        <h2>Destinasi Populer</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/bali.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Pulau eksotis dengan pantai yang indah.</p>
+            </div>
+            <div class="card">
+                <img src="images/jogja.jpg" alt="Yogyakarta">
+                <h3>Yogyakarta</h3>
+                <p>Kota budaya dengan banyak wisata sejarah.</p>
+            </div>
+            <div class="card">
+                <img src="images/bandung.jpg" alt="Bandung">
+                <h3>Bandung</h3>
+                <p>Tempat kuliner dan belanja favorit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planning Section -->
+    <section class="planning">
+        <h2>Rencanakan Perjalananmu</h2>
+        <form>
+            <label for="destination">Destinasi:</label>
+            <input type="text" id="destination" placeholder="Masukkan destinasi...">
+            
+            <label for="date">Tanggal Keberangkatan:</label>
+            <input type="date" id="date">
+            
+            <label for="notes">Catatan Perjalanan:</label>
+            <textarea id="notes" placeholder="Tambahkan detail perjalananmu..."></textarea>
+            
+            <button type="submit">Simpan Rencana</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 TripPlanner. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
